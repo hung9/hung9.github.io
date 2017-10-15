@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -72,10 +72,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
+  cursor: pointer;
 }
 
 ul, ol {
@@ -193,11 +190,11 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #61b72c;
   cursor: pointer;
   font-family: 'Amatic SC', $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 50px;
   letter-spacing: 1px;
 }
 
