@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <div class="date">
-    Ngày viết {{ page.date }}
+    Ngày viết {{ page.date | date: "%D" }}
   </div>
 
   {% include disqus.html %}
